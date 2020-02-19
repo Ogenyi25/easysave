@@ -1,0 +1,28 @@
+.navbar {
+  background: linear-gradient(270deg, #17223E 0%, #2E447C 44.2%, #293D70 100%);
+  .navbar-content {
+    .logo {
+      color: $white;
+      font-family: 'Pacifico', cursive;
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+    .navs {
+      color: $white;
+      padding-left: 150px;
+      
+      .nav-links {
+        color: $white;
+        text-decoration: none;
+        padding-left: 30px;
+        font-weight: 800;
+      }
+    }
+  }
+  
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  
+}
