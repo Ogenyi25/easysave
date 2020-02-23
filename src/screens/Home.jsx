@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../partials/Navbar";
 
 
+
+
 const Home = () => (
   <div className="home">
     <Navbar />
@@ -166,7 +168,8 @@ const Home = () => (
         </div>
         <div className="newsletter col-md-2">
           <div className="title">NewsLetter</div>
-          <input type="text" className="input"/>
+          <input type="text" className="input" />
+          <button type="button" className="btn btn-info">Join</button>
         </div>
       </div>
     </div>
