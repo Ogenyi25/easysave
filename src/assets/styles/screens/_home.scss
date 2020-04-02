@@ -7,7 +7,7 @@
     .landing {
       .image-content {
         margin-left: 10px;
-          margin-top: 100px;
+    
         .img {  
         }
       }
@@ -432,7 +432,447 @@
   }
 
 }
+
+
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
   
+  .home {
+
+    //STYLES FOR LANDING SECTION
+    .body {
+      background: linear-gradient(270deg, #17223E 0%, #2E447C 44.2%, #293D70 100%);
+      height: 100vh;
+      .landing {
+        .image-content {
+          margin-left: 10px;
+            margin-top: 100px;
+          .img {  
+            width: 100%;
+          }
+        }
+        .landing-content {
+          text-align: center;
+          margin-top: 15px;
+          color: $white;
+          .text {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 39px;
+          }
+          .paragraph {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+          }
+    
+        }
+      }
+      .how-it-work {
+        margin-top: 40px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 300px;
+        background-color: $white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 12px $box-shadow-color;
+        padding: 10px;
+        .title {
+          margin-bottom: 15px;
+          font-weight: 600;
+        }
+        .paragraph {
+          font-size: small;
+          font-weight: 500;
+          margin-bottom: 10px;
+        }
+      }  
+    }
+  
+    //STYLES FOR EASYSAVE SERVICES SECTION
+  
+    .pay-services {
+      margin-top: 200px;
+      margin-bottom: 10px;
+      
+      .piggy-image {
+        margin-left: 30px;
+        .piggy-bank {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          width: 80px;
+        }
+      }
+      .piggy-text {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        .title {
+          font-weight: 700;
+          margin-bottom: 15px;
+          margin-left: 20px;
+        }
+        .paragraph {
+          font-size: 15px;
+          font-weight: 300;
+          line-height: 29px;
+          margin-left: 20px;
+          .strong {
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  
+    // STYLES FOR EASYSAVE LOCK SECTION
+  
+    .easysave-lock {
+      margin-top: 5px;
+      background-color: rgba(41, 61, 112, 0.15);
+      width: 100%;
+      .lock-text {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        .title {
+          margin-left: 10px;
+          margin-bottom: 10px;
+          font-weight: 700;
+        }
+        .paragraph {
+          margin-left: 10px;
+          font-size: 15px;
+          font-weight: 300;
+          line-height: 29px;
+        }
+      }
+      .lock-image {
+        margin-top: 30px;
+        .lock {
+          display: block;
+          margin-bottom: 10px;
+          width: 70px;
+          height: 90px;
+        }
+      }
+    }
+  
+    //STYLES FOR EASYSAVE TARGET SECTION
+    .easysave-target {
+      margin-top: 100px;
+      width: 80vh;
+      .target-image {
+        margin-left: 10px;
+        .target {
+          margin-left: 100px;
+          width: 90px;
+          height: 90px;
+        }
+      }
+      .target-text {
+        .title {
+          font-weight: 700;
+          margin-bottom: 15px;
+        }
+        .paragraph {
+          font-size: 15px;
+          font-weight: 300;
+          line-height: 29px;
+        }
+      }
+    }
+  
+    //STYLES FOR BENEFITS SECTION
+  
+    .benefits {
+      margin-top: 150px;
+      background-color: rgba(41, 61, 112, 0.15);
+      .saving-culture {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        .purse {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          margin-bottom: 20px;
+          width: 70px;
+          height: 70px;
+        }
+        .title {
+          font-weight: 700;
+          margin-bottom: 15px;
+        }
+        .paragraph {
+          font-size: 15px;
+          font-weight: 300;
+          line-height: 29px;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+        .saving-culture:hover {
+          background-color: $white;
+          box-shadow: 3px 3px 12px $box-shadow-color;
+          transition: all 0.3s ease-out;
+          transform: scale(21);
+        }
+      }
+      .safe-secure {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        .shield {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          margin-bottom: 20px;
+          width: 70px;
+          height: 70px;
+        }
+        .title {
+          font-weight: 700;
+          margin-bottom: 15px;
+        }
+        .paragraph {
+          font-size: 15px;
+          font-weight: 300;
+          line-height: 29px;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+      }
+      .easy-access {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        .mobile-transfer {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          margin-bottom: 20px;
+          width: 70px;
+          height: 70px;
+        }
+        .title {
+          font-weight: 700;
+          margin-bottom: 15px;
+        }
+        .paragraph {
+          font-size: 15px;
+          font-weight: 300;
+          line-height: 29px;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+      }
+    }
+  
+    //STYLES FOR FREQUENTLY ASKED QUESTIONS
+  
+    .questions-asked {
+      margin-top: 100px;
+      .title {
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 100px;
+      }
+      .questions {
+        .left-question {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          .list {
+            text-align: center;
+            color: $blue;
+            margin-bottom: 30px;
+          }
+          .paragraph {
+            text-align: justify;
+            margin-bottom: 70px;
+            font-size: 15px;
+            line-height: 25px;
+            margin-left: 30px;
+          }
+          .list2 {
+            text-align: center;
+            color: $blue;
+            margin-bottom: 30px;
+          }
+          .paragraph2 {
+            text-align: justify;
+            font-size: 15px;
+            margin-bottom: 20px;
+            line-height: 25px;
+            margin-left: 20px;
+          }
+        }
+        .middle-question {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          .cards {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+          }
+          .list {
+            text-align: center;
+            color: $blue;
+            margin-bottom: 30px;
+          }
+          .paragraph {
+            text-align: justify;
+            margin-bottom: 70px;
+            font-size: 15px;
+            line-height: 25px;
+            margin-right: 30px;
+          }
+        }
+  
+        .right-question {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          .list {
+            text-align: center;
+            color: $blue;
+            margin-bottom: 30px;
+          }
+          .paragraph {
+            text-align: justify;
+            margin-bottom: 70px;
+            font-size: 15px;
+            line-height: 25px;
+            margin-right: 30px;
+          }
+          .list2 {
+            text-align: center;
+            color: $blue;
+            margin-bottom: 30px;
+          }
+          .paragraph2 {
+            text-align: justify;
+            font-size: 15px;
+            margin-bottom: 20px;
+            line-height: 25px;
+            margin-right: 20px;
+          }
+        }
+      }
+      .under-question {
+        text-align: center;
+        margin-top: 30px;
+        .list {
+          text-align: center;
+        }
+        .paragraph {
+          text-align: center;
+          font-size: 15px;
+          margin-bottom: 20px;
+          line-height: 25px;
+        }
+      }
+    }
+  
+    //STYLES FOR THE FOOTER SECTION
+  
+    .footer-section {
+      background: linear-gradient(360deg, #253663 0%, #354B86 100%);
+      .footer-contents {
+        padding-top: 50px;
+        color: $white;
+        .easysave {
+          margin-left: 10px;
+          .title {
+            padding-left: 15px;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 20px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+          }
+          .paragraph {
+            padding-left: 15px;
+            font-size: small;
+            font-style: normal;
+            line-height: 20px;
+            margin-bottom: 15px;
+          }
+        }
+        .company {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          .title {
+            font-weight: 500;
+            font-size: large;
+            margin-bottom: 10px;
+          }
+          .paragraph {
+          }
+          .nav-links {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            font-size: small;
+            text-decoration: none;
+            color: $white;
+            margin-bottom: 7px;
+          }
+        }
+        .product {
+          .title {
+            font-weight: 500;
+            font-size: large;
+            margin-bottom: 10px;
+          }
+          .paragraph {
+          }
+          .nav-links {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            font-size: small;
+            text-decoration: none;
+            color: $white;
+            margin-bottom: 7px;
+          }
+        }
+        .newsletter {
+          .title {
+            font-weight: 500;
+            font-size: large;
+            margin-bottom: 10px;
+          }
+          .input {
+            background-color: transparent;
+            border-color: #354B86;
+            border-style: groove;
+            border-radius: 5px;
+          }
+          .btn {
+            margin-top: 10px;
+            height: 35px;
+            text-align: center;
+            float: right;
+            
+          }
+        }
+      }
+    }
+  
+  }
 }

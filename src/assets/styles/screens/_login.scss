@@ -1,5 +1,6 @@
 .login {
     .login-page {
+        background-image: url(../../images/login.png);
         .login-contents {
             width: 90%;
             height: 80vh;
@@ -36,23 +37,70 @@
             .login-form {
                 margin-top: 70px;
                 width: 40vw;
-                height: 50vh;
+                height: 60vh;
                 margin-left: auto;
                 margin-right: auto;
                 display: block;
                 background-color: $white;
                 box-shadow: 3px 3px 12px $box-shadow-color;
                 border-radius: 10px;
+                .login-form-text {
+                    margin-top: 20px;
+                    font-size: xx-large;
+                    text-align: center;
+                    font-weight: 800;
+                }
                 .form {
                     margin-top: 20px;
                     width: 30vw;
                     margin-left: auto;
                     margin-right: auto;
                     display: block;
+                    
                     .form-group {
                         margin-top: 20px;
+                        i {
+                            position: absolute;
+                            padding: 10px;
+                        }
                         .form-control {
                             margin-top: 20px;
+                            padding-left: 30px;
+                        }
+                    }
+                    .tick {
+                        padding-left: 10px;
+                        font-size: small;
+                        font-weight: 500;
+                    }
+                    .forget {
+                        text-decoration: none;
+                    }
+                    .btn {
+                        float: right;
+                    }
+                    .alternative {
+                        margin-top: 30px;
+                        text-align: center;
+                        font-weight: 600;
+                    }
+                    .social-icon {
+                        margin-top: 30px;
+                        .go {
+                            margin-left: 30px;
+                            color: red;
+                        }
+                        .ig {
+                            margin-left: 30px;
+                            color: yellow;
+                        }
+                        .fab {
+                            margin-left: 30px;
+                            color: #3B5998;
+                        }
+                        .tw {
+                            margin-left: 30px;
+                            color:  #00acee;
                         }
                     }
                 }

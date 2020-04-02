@@ -14,7 +14,7 @@ const Home = () => (
         <div className="image-content col-md-6">
           <img className="img" src={require("../assets/images/wallet.png")} alt="" />
         </div>
-        <div className="landing-content col-md-4">
+        <div className="landing-content col-md-3">
           <h3 className="text">Let's help you save</h3>
           <p className="paragraph">We believe everyone deserves access to quality credit
           that improves their lifestyles.</p>
