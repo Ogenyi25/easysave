@@ -36,10 +36,10 @@
         font-family: 'Pacifico', cursive;
         font-size: 1.5rem;
         font-weight: 600;
+        margin-bottom: 20px;
       }
       .navs {
-        color: $white;
-        
+        color: $white; 
         padding-left: 10px;
         display: inline;
         .nav-links {
@@ -50,8 +50,12 @@
         }
       }
       .btn {
+        float: right;
         margin-left: 15px;
         margin-top: 30px;
+      }
+      .log {
+        margin-right: -30px;
       }
     }
     

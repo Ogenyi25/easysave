@@ -16,7 +16,7 @@ function Navbar() {
         </div>
         <div className="account col-md-3">
           <Link to='/signup'>
-        <button type="button" className="btn btn-primary">Sign Up</button>
+        <button type="button" className="btn btn-primary log">Sign Up</button>
         </Link>
         <Link to='/login'>
         <button type="button" className="btn btn-success">Login</button>
